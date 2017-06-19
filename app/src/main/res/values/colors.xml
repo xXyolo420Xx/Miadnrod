@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#093A3E</color>
+    <color name="colorPrimaryDark">#093A3E</color>
+    <color name="colorAccent">#658BF2</color>
+    <color name="colorUmbral">#BAC9F2</color>
+    <color name="colorOEE">#FCEBD9</color>
+    <color name="colorComunicacion">#FFD3F8</color>
+    <color name="colorExceso">#FFFFBC</color>
+    <color name="colorGas">#C582E0</color>
+    <color name="grey">#F5F5F5</color>
+    <color name="titulo">#9FFFCB</color>
+
+
+    <color name="morado">#C582E0</color>
+    <color name="marron">#D39952</color>
+    <color name="naranja">#E8A86D</color>
+    <color name="gris">#D7DAE5</color>
+    <color name="amarillo">#FFFFBC</color>
+    <color name="rosa">#FFD3F8</color>
+    <color name="verde">#32DE8A</color>
+    <color name="rojo">#D14B4B</color>
+
+
+</resources>

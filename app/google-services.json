@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1090561213025",
+    "firebase_url": "https://myenergymap-bfaf7.firebaseio.com",
+    "project_id": "myenergymap-bfaf7",
+    "storage_bucket": "myenergymap-bfaf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090561213025:android:a4bc9f2c9fb7648e",
+        "android_client_info": {
+          "package_name": "alarma.myenergymap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090561213025-l6aa11fd8dp6ga43qs7308907aad1rep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alarma.myenergymap",
+            "certificate_hash": "d438857e295a5d29def010862b763a5c152ba130"
+          }
+        },
+        {
+          "client_id": "1090561213025-46o32eg230sk89ubute3tl7rh4lh52rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKDQOIBZ_Df64Xj65ey6rP-tHHjZzaBSM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090561213025-46o32eg230sk89ubute3tl7rh4lh52rg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

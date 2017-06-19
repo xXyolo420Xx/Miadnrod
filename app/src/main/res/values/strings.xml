@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Energy Map</string>
+    <string name="borrar_alertas">Borrar alarmas</string>
+    <string name="borrar_las_alarmas">¿Borrar las alarmas?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="title_activity_login">Entrar</string>
+
+    <string name="correo">Usuario</string>
+    <string name="contrasenya">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="usuario_salir">¿Estas seguro de que quieres cerrar la sesión?</string>
+    <string name="salir">Desvincular</string>
+    <string name="filtros">Filtros</string>
+    <string name="tipo_de_alarma">Tipo</string>
+    <string name="empresa">Empresa</string>
+    <string name="sede">Sede</string>
+    <string name="aplicar">Aplicar</string>
+    <string name="prioridad_alta">Alta</string>
+    <string name="prioridad_baja">Baja</string>
+    <string name="prioridad_media">Media</string>
+    <string name="silenciar_todo">Silenciar todo</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="sonido_de_notificaciones">Sonido de notificaciones</string>
+    <string name="txt_prioridad">Selecciona el sonido según la prioridad de la alarma</string>
+    <string name="txtActivar">Activar sonido</string>
+    <string name="prioridad_alarma">Prioridad</string>
+    <string name="personalizaci_n_colores">Personalización colores</string>
+    <string name="elige_un_color_para_cada_tipo_de_alarma">Elige un color para cada tipo de alarma</string>
+    <string name="tipo_umbral">Umbral</string>
+    <string name="tipo_oee">OEE</string>
+    <string name="tipo_comunicaci_n">Comunicación</string>
+    <string name="tipo_exceso_de_potencia">Exceso de potencia</string>
+    <string name="volver">Volver</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="vibraci_n">Vibración</string>
+    <string name="predicci_n_gas">Predicción gas</string>
+    <string name="version">Versión 1.10</string>
+</resources>

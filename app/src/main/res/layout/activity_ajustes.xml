@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="alarma.myenergymap.Ajustes">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="@string/sonido_de_notificaciones"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/txtSubtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="@string/txt_prioridad"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtAlta"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:text="@string/prioridad_alta"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/selectAlta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtMedia"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:text="@string/prioridad_media"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/selectMedia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtBaja"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:text="@string/prioridad_baja"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/selectBaja"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/checkVibracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
+                android:layout_marginStart="145dp"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:text="@string/vibraci_n"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnSilenciar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtCambiarColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="@string/personalizaci_n_colores"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/txtCambiarColorSubtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="@string/elige_un_color_para_cada_tipo_de_alarma"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtColorUmbral"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:text="@string/tipo_umbral"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/selectUmbral"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtColorOEE"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:text="@string/tipo_oee"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/selectOEE"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtColorComunicacion"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:text="@string/tipo_comunicaci_n"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/selectComunicacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtColorExceso"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:text="@string/tipo_exceso_de_potencia"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/selectExceso"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtColorGas"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:text="@string/predicci_n_gas"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/selectGas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2.5dp"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/volver"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
