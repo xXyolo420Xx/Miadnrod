@@ -1,0 +1,1 @@
+{'Mercadona' : ['Cedro', 'Plaza España', 'Plaza Honduras'], 'Consum' : ['El Carmen', 'El Cabanyal', 'San Marcelino']}
